@@ -1,0 +1,25 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Curso de Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "standard && node --watch app.js"
+  },
+  "author": "Víctor Enrique Báez López",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.19.2",
+    "picocolors": "1.0.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
