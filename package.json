@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "standard && node --watch app.js"
+    "dev": "standard && node --watch app.js",
+    "vercel-build": "echo hello"
   },
   "author": "Víctor Enrique Báez López",
   "license": "MIT",
